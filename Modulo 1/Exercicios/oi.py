@@ -1,0 +1,7 @@
+nome = input('qual o seu nome?')
+idade = input('qual a sua idade?')
+familia = input('quantas pessoas voce tem na familia?')
+cidade = input('em qual cidade voce mora?')
+animal = input('voce tem algum animal de estimacao?')
+fazer = input('oque voce mais gosta de fazer?')
+print('olá',nome,'entao voce tem',idade,'anos','voce tem',familia,'na familia','voce mora em',cidade,'voce nao tem',animal,'entao voce gosta de',fazer)

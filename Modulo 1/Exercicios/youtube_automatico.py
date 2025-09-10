@@ -1,0 +1,40 @@
+
+import pyautogui as p
+from time import sleep
+
+
+#p.mouseInfo()
+
+
+p.press('win')
+sleep(1)
+p.write('chrome')
+p.press('enter')
+p.moveTo(957,578,duration=1)
+p.click()
+sleep(1)
+p.write('https://www.youtube.com')
+p.press('enter')
+sleep(3)
+p.moveTo(665,115)
+p.click()
+p.write('moonlight-sonata-3rd-movement')
+p.press('enter')
+sleep(2)
+p.moveTo(710,348,duration=1)
+p.click()
+sleep(2)
+p.moveTo(997,965,duration=1)
+sleep(2)
+p.click()
+sleep(80)
+p.moveTo(945,117,duration=1)
+sleep(1)
+p.doubleClick()
+p.press('del')
+sleep(1)
+p.write('skillet invincible')
+p.press('enter')
+sleep(2)
+p.moveTo(626,554,duration=1)
+p.click()
